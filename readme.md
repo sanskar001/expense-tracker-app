@@ -1,6 +1,6 @@
 # Expense Tracker App
 
-![alt text](https://github.com/sanskar001/expense-tracker-app/tree/master/src "Expense Tracker App logo")
+![alt text](https://github.com/sanskar001/expense-tracker-app/blob/master/src/img/piggi.png "Expense Tracker App logo")
 
 The right app make it easy to manage your expense 💰 on the go. Personal capital. Expensify
 
