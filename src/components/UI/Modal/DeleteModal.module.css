@@ -1,0 +1,65 @@
+.delete_modal {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal_heading {
+  font-size: 24px;
+  font-weight: 500;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.expense_info {
+  width: 100%;
+  background-color: #f8f8f8;
+  padding: 10px 0px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.expense_info span:nth-child(1),
+.expense_info span:nth-child(3) {
+  font-weight: 500;
+}
+
+.expense_info span:nth-child(2) {
+  color: #3c3c3c;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.cancel_btn,
+.success_btn {
+  width: 100px;
+  height: 40px;
+  font-size: 16px;
+  color: #fff;
+  border-radius: 10px;
+  margin: 0px 10px;
+}
+
+.cancel_btn {
+  background-color: #d16363;
+}
+
+.cancel_btn:hover,
+.cancel_btn:active {
+  background-color: #b35353;
+}
+
+.success_btn {
+  background-color: #3c3c3c;
+}
+
+.success_btn:hover,
+.success_btn:active {
+  background-color: #524c4c;
+}

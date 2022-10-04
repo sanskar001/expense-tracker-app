@@ -1,0 +1,6 @@
+.btn {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}

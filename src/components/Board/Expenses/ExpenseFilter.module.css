@@ -1,0 +1,45 @@
+.expense_filter {
+  padding: 10px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.expense_filter h3 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #3c3c3c;
+}
+
+/* .filter {
+  border: 1px solid #bebebe;
+} */
+
+.filter input {
+  width: 0;
+  height: 0;
+  opacity: 0;
+}
+
+.filter input[type="radio"] + label {
+  display: inline-block;
+  margin-left: 10px;
+  padding: 5px 10px;
+  font-size: 14px;
+  background: rgba(190, 190, 190, 0.25);
+  color: #3c3c3c;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+
+.filter input[type="radio"] + label:hover {
+  color: #000;
+  font-weight: 500;
+}
+
+.filter input[type="radio"]:checked + label {
+  color: #000;
+  font-weight: 500;
+  background-color: #bebebe;
+}
